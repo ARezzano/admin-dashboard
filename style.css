@@ -33,11 +33,60 @@ body{
     padding: 10px;
     grid-column: 1;
     grid-row: 1/3;
+    justify-items: center;
+}
+
+.sidebar-title{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+}
+
+.sidebar-content-up div{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+}
+
+.sidebar-content-down div{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
 }
 
 .main-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: rgb(226,232,240);
     padding: 10px;
     grid-column: 2/3;
     grid-row: 2/3;
 }
+
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,250px);
+    grid-template-rows: 1f 1f 1f 1f;
+    gap: 15px;
+}
+
+.card{
+    border-radius: 5px;
+    border-left: 5px solid #F0B429;
+    padding: 20px;
+    background-color: #FFFFFF;
+    grid-column: 1/2;
+    grid-row: repeat(auto-fit,50px);
+}
+
+.card-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-self: end;
+    gap: 5px;
+}
+
+
+/* Find out why .sidebar-content-down is misplaced */
