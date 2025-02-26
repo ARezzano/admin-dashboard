@@ -57,7 +57,6 @@ body{
 .main-content{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
     background-color: rgb(226,232,240);
     padding: 10px;
     grid-column: 2/3;
@@ -66,18 +65,18 @@ body{
 
 .project-cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit,250px);
-    grid-template-rows: 1f 1f 1f 1f;
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(150px,1fr));
+    gap: 20px;
+    padding: 15px;
 }
 
 .card{
     border-radius: 5px;
     border-left: 5px solid #F0B429;
-    padding: 20px;
+    padding: 15px;
     background-color: #FFFFFF;
-    grid-column: 1/2;
-    grid-row: repeat(auto-fit,50px);
+    max-width: 350px;
 }
 
 .card-icons{
@@ -86,6 +85,10 @@ body{
     grid-template-rows: 1fr;
     justify-self: end;
     gap: 5px;
+}
+
+#projects-title{
+    grid-column: 1/4;
 }
 
 
