@@ -22,6 +22,16 @@ body{
     padding: 0 50px;
 }
 
+.black-icons{
+    justify-self: center;
+    align-self: center;
+    width: 15%;
+}
+
+.card-icons{
+    width: 40%;
+}
+
 .nav-bottom{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
