@@ -9,6 +9,26 @@ body{
     font-family: "roboto";
 }
 
+.small-pfp{
+    width: 50px;
+    border-radius: 50%;
+    justify-self: end;
+    align-self: center;
+}
+
+input{
+    background-color: #E2E8F0;
+    border-style: none;
+    border-radius: 30px;
+    height: 70%;
+    align-self: center;
+}
+
+.small-title{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -23,15 +43,16 @@ body{
 
 .nav-top{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 5fr 1fr 1fr 2fr;
     gap: 15px;
-    padding: 0 50px;
+    justify-content: center;
+    margin: 10px 0 10px 0;
 }
 
 .black-icons{
-    justify-self: center;
+    justify-self: end;
     align-self: center;
-    width: 15%;
+    width: 30px;
 }
 
 .card-icons{
@@ -195,5 +216,3 @@ body{
     justify-self: center;
     align-self: center;
 }
-
-/* Find out why .sidebar-content-down is misplaced */
