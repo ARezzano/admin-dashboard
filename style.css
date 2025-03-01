@@ -161,11 +161,17 @@ button{
 .main-content{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 12fr;
+    grid-template-rows: 1fr 15fr;
     background-color: rgb(226,232,240);
     padding: 10px;
     grid-column: 2/3;
     grid-row: 2/3;
+}
+
+.sub-title{
+    font-weight: 600;
+    font-size: 24px;
+    align-self: flex-end;
 }
 
 .project-cards{
@@ -195,6 +201,8 @@ button{
 #projects-title{
     grid-column: 1/4;
     grid-row: 1;
+    padding: 0 20px;
+    margin-bottom: 0;
 }
 
 .right-cards{
@@ -224,6 +232,8 @@ button{
 #announcements-title{
     grid-column: 2/4;
     grid-row: 1;
+    padding: 0 20px;
+    margin-bottom: 0;
 }
 
 .trending{
