@@ -22,6 +22,8 @@ input{
     border-radius: 30px;
     height: 70%;
     align-self: center;
+    padding-left: 15px;
+    font-size: 24px;
 }
 
 button{
@@ -183,19 +185,37 @@ button{
 }
 
 .card{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 20px;
     border-radius: 10px;
     border-left: 8px solid #F0B429;
     padding: 15px;
     background-color: #FFFFFF;
-
+    box-shadow: 2px 2px 8px rgb(180, 180, 180);
 }
 
 .card-icons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    min-width: 25px;
     justify-self: end;
+    align-self: end;
+    margin-bottom: 0;
     gap: 5px;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.card-text{
+    color: #747474;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-right: 50px;
+    margin-top: 5px;
 }
 
 #projects-title{
@@ -214,6 +234,7 @@ button{
     border-radius: 10px;
     display: grid;
     grid-template-rows: repeat(3,auto);
+    box-shadow: 2px 2px 8px rgb(180, 180, 180);
 }
 
 .ann-post{
@@ -241,6 +262,7 @@ button{
     border-radius: 10px;
     display: grid;
     grid-template-rows: repeat(4,auto);
+    box-shadow: 2px 2px 8px rgb(180, 180, 180);
 }
 
 .trending-content{
