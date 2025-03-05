@@ -27,7 +27,7 @@ input{
 }
 
 button{
-    background-color: rgb(25,146,212);
+    background-color: rgb(247, 91, 117);
     border-radius: 30px;
     border-style: none;
     margin: 10% 10%;
@@ -101,7 +101,7 @@ button{
 }
 
 .sidebar{
-    background-color: rgb(25,146,212);
+    background-color: rgb(247, 91, 117);
     padding: 10px;
     grid-column: 1;
     grid-row: 1/4;
@@ -188,7 +188,7 @@ button{
     display: grid;
     grid-template-rows: 0.1fr 1fr 20px;
     border-radius: 10px;
-    border-left: 8px solid #F0B429;
+    border-left: 8px solid #fc891d;
     padding: 15px;
     background-color: #FFFFFF;
     box-shadow: 2px 2px 8px rgb(180, 180, 180);
