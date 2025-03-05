@@ -235,10 +235,11 @@ button{
     display: grid;
     grid-template-rows: repeat(3,auto);
     box-shadow: 2px 2px 8px rgb(180, 180, 180);
+    padding-bottom: 20px;
 }
 
 .ann-post{
-    padding: 15px;
+    padding: 20px 30px 0 30px;
     justify-self:center;
 }
 
@@ -255,6 +256,17 @@ button{
     grid-row: 1;
     padding: 0 20px;
     margin-bottom: 0;
+}
+
+.ann-subtitle{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: -10px;
+}
+
+.ann-content{
+    color: #747474;
+    font-weight: 500; 
 }
 
 .trending{
